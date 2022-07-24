@@ -10,6 +10,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- JS -->
+    <script src="{{url_for('static', filename='master.js')}}"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
 
@@ -24,12 +27,12 @@
     <a class="nav-link" href="{{ url_for('core.info') }}">🧑🏽 About Mø</a>
   </li>
     {% if current_user.is_authenticated %}
-    <li class="nav-link"><a href="{{ url_for('users.logout') }}">👋🏽 Log Out</a></li>
+    <li class="nav-link"><a href="{{ url_for('users.logout') }}">👋🏽 Log Out Personality</a></li>
     <li class="nav-link"><a href="{{ url_for('users.account') }}">🐒 Account</a></li>
     <li class="nav-link"><a href="{{ url_for('blog_posts.create_post') }}">📜 Create Post</a></li>
     {% else %}
-    <li class="nav-link"><a href="{{ url_for('users.login') }}">🚪 Log In</a></li>
-    <li class="nav-link"><a href="{{ url_for('users.register') }}">✍🏼 Register</a></li>
+    <li class="nav-link"><a href="{{ url_for('users.login') }}">🚪 Log In Personality</a></li>
+    <li class="nav-link"><a href="{{ url_for('users.register') }}">✍🏼 Register Personality</a></li>
     {% endif %}
 
 </ul>

@@ -10,10 +10,10 @@ body {
   }
 
   .jumbotron {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
+    margin-top: 2em;
     margin-bottom: 2rem;
-    background-color: white;
-    border-radius: 1.5rem;
+    background-color: #faf8f8;
 }
 
 p , h3 {
