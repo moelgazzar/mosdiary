@@ -40,6 +40,7 @@ Ensure your virtual environment is activated, and the terminal in your IDE is lo
 To download all Python modules listed in requirements.txt, type: pip install -r requirements.txt
 
 <h3>🗺 Technical Achitechture</h3>
+
 ![Technical Achitechture](https://user-images.githubusercontent.com/109832377/182144874-50674a74-a336-4b32-9180-60548cd39860.png)
 
 
