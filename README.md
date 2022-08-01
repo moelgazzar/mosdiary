@@ -1,12 +1,12 @@
 # mosdiary
 
 <h3>📖 Table of Contents</h3>
-General Info<br>
+General Information<br>
 Technologies<br>
 Setup<br>
 Technical Achitechture<br>
 
-<h3>ℹ️ General Info</h3>
+<h3>ℹ️ General Information</h3>
 Mø's Diary is my first personal website built through programming. The website's purpose is to act as a diary, in which I would log in with the emotion that most possessed me at the time of writing. The journal would help me document my feelings and use this material for personal improvement and mental health.
 
 <h3>💻 Technologies</h3>
